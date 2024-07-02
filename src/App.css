@@ -12,7 +12,7 @@
   }
   .result {
     @apply relative flex items-center justify-center
-            text-center rounded-xl p-5
+            text-center rounded-lg p-5
             font-hankenGrotesk;
   }
 }

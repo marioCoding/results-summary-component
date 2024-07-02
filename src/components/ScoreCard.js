@@ -5,7 +5,8 @@ const ScoreCard = () => {
     <div className="relative flex flex-col items-center justify-center
                     text-center text-white font-hankenGrotesk
                     bg-gradient-to-b from-lightSlateBlue to-lightRoyalBlue
-                    w-full rounded-b-3xl">
+                    w-full rounded-b-3xl
+                    xl:rounded-3xl xl:shadow-lg">
       <h1 className="m-4">Your Result</h1>
       <Score />
       <h2 className="text-2xl">Great</h2>

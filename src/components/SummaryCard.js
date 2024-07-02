@@ -6,7 +6,8 @@ import Visual from '../assets/images/icon-visual.svg';
 
 const SummaryCard = () => {
   return (
-    <div className="w-full font-hankenGrotesk">
+    <div className="w-full font-hankenGrotesk
+                    xl:shadow-lg xl:rounded-3xl">
       <h1 className="m-6 font-bold text-lg">Summary</h1>
 
       <div className="relative flex justify-start flex-col m-4">
@@ -24,7 +25,8 @@ const SummaryCard = () => {
         </div>
 
         <button className="w-auto p-3 mt-4 mr-2 ml-2 font-bold
-                        text-white bg-darkGrayBlue rounded-3xl">
+                        text-white bg-darkGrayBlue rounded-3xl
+                        hover:bg-gradient-to-b hover:from-lightSlateBlue hover:to-lightRoyalBlue">
           Continue
         </button>
       </div>
