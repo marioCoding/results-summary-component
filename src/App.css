@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@layer components {
+  .hanken-grotesk {
+    @apply font-hankenGrotesk font-normal non-italic;
+            font-optical-sizing: auto;
+            font-weight: 400;
+  }
+  .result {
+    @apply relative flex items-center justify-center
+            text-center rounded-xl p-5
+            font-hankenGrotesk;
+  }
+}
